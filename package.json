@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "restful-react": "bin/restful-react.js"
+  },
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -27,7 +30,13 @@
     "email": "tejas@tejas.qa",
     "url": "https://twitter.com/tejaskumar_"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Fabien Bernard",
+      "email": "fabien@contiamo.com",
+      "url": "https://fabien0102.com/en"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/contiamo/restful-react"
@@ -76,14 +85,13 @@
     "jest-dom": "^1.12.0",
     "lint-staged": "^7.2.0",
     "nock": "^9.4.4",
+    "openapi3-ts": "^0.12.0",
     "prettier": "^1.13.5",
     "react-dom": "^16.4.2",
     "react-testing-library": "^4.1.2",
     "rollup": "^0.63.5",
     "rollup-plugin-typescript2": "^0.16.1",
     "ts-jest": "^22.4.6",
-    "ts-node": "^7.0.0",
-    "ts-node-dev": "^1.0.0-pre.26",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "tslint-plugin-blank-line": "^0.0.8",
@@ -93,7 +101,6 @@
     "case": "^1.5.5",
     "commander": "^2.17.1",
     "lodash": "^4.17.10",
-    "openapi3-ts": "^0.12.0",
     "react": "^16.4.1",
     "react-fast-compare": "^2.0.1",
     "yamljs": "^0.3.0"
